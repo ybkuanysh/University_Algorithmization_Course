@@ -17,6 +17,6 @@ int main()
     
     
     (pow(x, 2) + pow(y, 2) <= 1) && (pow(x - 2, 2) + pow(y, 2) <= 4) ? std::cout<<"true\n" : std::cout<<"false\n";
-
+//something
     return 0;
 }
