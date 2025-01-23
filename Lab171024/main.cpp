@@ -1,8 +1,7 @@
 #include <iostream>
 #include <math.h>
 
-int main()
-{
+int main() {
     double x, y;
     std::cout << "Please enter X and Y coordinates\n";
     std::cin >> x >> y;
@@ -17,6 +16,6 @@ int main()
     
     
     (pow(x, 2) + pow(y, 2) <= 1) && (pow(x - 2, 2) + pow(y, 2) <= 4) ? std::cout<<"true\n" : std::cout<<"false\n";
-//something
+
     return 0;
 }
