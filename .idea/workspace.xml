@@ -18,14 +18,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b89a7c41-64a6-419f-805e-106ec26f11ec" name="Changes" comment="Added .idea to repo">
-      <change afterPath="$PROJECT_DIR$/2025/feb/21/hw.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sro/sro3/task15.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sro/sro3/task28.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b89a7c41-64a6-419f-805e-106ec26f11ec" name="Changes" comment="Circular arrays added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/feb/7/cw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2025/feb/7/cw.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/feb/21/hw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2025/feb/21/hw.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +230,7 @@
       <workItem from="1740110164463" duration="696000" />
       <workItem from="1740113954339" duration="727000" />
       <workItem from="1740115200179" duration="5244000" />
-      <workItem from="1740718804497" duration="1957000" />
+      <workItem from="1740718804497" duration="2507000" />
     </task>
     <task id="LOCAL-00001" summary="added lab 2025 jan 31">
       <option name="closed" value="true" />
@@ -293,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739514719547</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Circular arrays added">
+      <option name="closed" value="true" />
+      <created>1740721293586</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740721293586</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +310,7 @@
     <MESSAGE value="added cw from Lab70225" />
     <MESSAGE value="reordered some files and added hw 14 feb 2025" />
     <MESSAGE value="Added .idea to repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .idea to repo" />
+    <MESSAGE value="Circular arrays added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular arrays added" />
   </component>
 </project>
