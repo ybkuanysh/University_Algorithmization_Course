@@ -132,7 +132,7 @@ int main() {
                 }
             }
             break;
-        case 7:
+        case 7: // Выбора max по возрастанию
             for (int i = 0; i < size(arr); i++) {
                 int maxId = 0;
                 for (int j = 0; j < size(arr) - i; j++) {

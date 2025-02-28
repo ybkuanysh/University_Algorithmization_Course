@@ -7,6 +7,7 @@
     <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
     <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
   </component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
@@ -17,9 +18,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b89a7c41-64a6-419f-805e-106ec26f11ec" name="Changes" comment="reordered some files and added hw 14 feb 2025">
-      <change afterPath="$PROJECT_DIR$/sro/sro1/SRO1.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b89a7c41-64a6-419f-805e-106ec26f11ec" name="Changes" comment="Added .idea to repo">
+      <change afterPath="$PROJECT_DIR$/2025/feb/21/hw.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sro/sro3/task15.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sro/sro3/task28.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/feb/7/cw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2025/feb/7/cw.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +74,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;C/C++ File.cw.cpp (1).executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.cw.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.cw2.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.glaz_cw2.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.hw.cpp (1).executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.hw.cpp.executor&quot;: &quot;Run&quot;,
     &quot;C/C++ File.task1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.task15.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.task28.cpp.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -101,26 +110,38 @@
       <recent name="C:\Users\ybkuanysh\Documents\UNICOURSE\University_Algorithmization_Course\2024\nov" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.hw.cpp">
+  <component name="RunManager" selected="C/C++ File.hw.cpp (1)">
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cw2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="cw2.cpp" CONFIG_NAME="cw2.cpp">
-      <option name="sourceFile" value="Lab310125\cw2.cpp" />
+    <configuration name="cw.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="cw.cpp" CONFIG_NAME="cw.cpp">
+      <option name="sourceFile" value="2025\feb\7\cw.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cw.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="cw.cpp" CONFIG_NAME="cw.cpp">
-      <option name="sourceFile" value="Lab70225\cw.cpp" />
+    <configuration name="hw.cpp (1)" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="hw.cpp" CONFIG_NAME="hw.cpp">
+      <option name="sourceFile" value="2025\feb\21\hw.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="hw.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="hw.cpp" CONFIG_NAME="hw.cpp">
       <option name="sourceFile" value="2025\feb\14\hw.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task15.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="task15.cpp" CONFIG_NAME="task15.cpp">
+      <option name="sourceFile" value="sro\sro3\task15.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task28.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="task28.cpp" CONFIG_NAME="task28.cpp">
+      <option name="sourceFile" value="sro\sro3\task28.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -179,9 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.hw.cpp (1)" />
+        <item itemvalue="C/C++ File.cw.cpp (1)" />
+        <item itemvalue="C/C++ File.task28.cpp" />
+        <item itemvalue="C/C++ File.task15.cpp" />
         <item itemvalue="C/C++ File.hw.cpp" />
-        <item itemvalue="C/C++ File.cw2.cpp" />
-        <item itemvalue="C/C++ File.cw.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +228,14 @@
       <workItem from="1738906915800" duration="236000" />
       <workItem from="1738907171558" duration="756000" />
       <workItem from="1739414596898" duration="8824000" />
-      <workItem from="1739505533392" duration="6983000" />
+      <workItem from="1739505533392" duration="7075000" />
+      <workItem from="1739763309855" duration="186000" />
+      <workItem from="1739763511342" duration="6983000" />
+      <workItem from="1739771606663" duration="963000" />
+      <workItem from="1740110164463" duration="696000" />
+      <workItem from="1740113954339" duration="727000" />
+      <workItem from="1740115200179" duration="5244000" />
+      <workItem from="1740718804497" duration="1957000" />
     </task>
     <task id="LOCAL-00001" summary="added lab 2025 jan 31">
       <option name="closed" value="true" />
@@ -255,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739514533747</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added .idea to repo">
+      <option name="closed" value="true" />
+      <created>1739514719547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739514719547</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +306,7 @@
     <MESSAGE value="added sro2 diagram" />
     <MESSAGE value="added cw from Lab70225" />
     <MESSAGE value="reordered some files and added hw 14 feb 2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="reordered some files and added hw 14 feb 2025" />
+    <MESSAGE value="Added .idea to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .idea to repo" />
   </component>
 </project>
