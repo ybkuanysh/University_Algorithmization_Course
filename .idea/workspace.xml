@@ -18,9 +18,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b89a7c41-64a6-419f-805e-106ec26f11ec" name="Changes" comment="Circular arrays added">
+    <list default="true" id="b89a7c41-64a6-419f-805e-106ec26f11ec" name="Changes" comment="missed default case">
+      <change afterPath="$PROJECT_DIR$/sro/sro4/task21.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/feb/21/hw.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2025/feb/21/hw.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,35 +68,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.cw.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.cw.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.cw2.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.glaz_cw2.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hw.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hw.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.task1.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.task15.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.task28.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.cw.cpp (1).executor": "Run",
+    "C/C++ File.cw.cpp.executor": "Run",
+    "C/C++ File.cw2.cpp.executor": "Run",
+    "C/C++ File.glaz_cw2.cpp.executor": "Run",
+    "C/C++ File.hw.cpp (1).executor": "Run",
+    "C/C++ File.hw.cpp.executor": "Run",
+    "C/C++ File.task1.cpp.executor": "Run",
+    "C/C++ File.task15.cpp.executor": "Run",
+    "C/C++ File.task21.cpp.executor": "Run",
+    "C/C++ File.task28.cpp.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CPPToolchains",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ybkuanysh\Documents\UNICOURSE\University_Algorithmization_Course\Examination" />
@@ -105,7 +107,7 @@
       <recent name="C:\Users\ybkuanysh\Documents\UNICOURSE\University_Algorithmization_Course\2024\nov" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.hw.cpp (1)">
+  <component name="RunManager" selected="C/C++ File.task21.cpp">
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -123,14 +125,14 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hw.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="hw.cpp" CONFIG_NAME="hw.cpp">
-      <option name="sourceFile" value="2025\feb\14\hw.cpp" />
+    <configuration name="task15.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="task15.cpp" CONFIG_NAME="task15.cpp">
+      <option name="sourceFile" value="sro\sro3\task15.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="task15.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="task15.cpp" CONFIG_NAME="task15.cpp">
-      <option name="sourceFile" value="sro\sro3\task15.cpp" />
+    <configuration name="task21.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="task21.cpp" CONFIG_NAME="task21.cpp">
+      <option name="sourceFile" value="sro\sro4\task21.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -195,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.task21.cpp" />
         <item itemvalue="C/C++ File.hw.cpp (1)" />
         <item itemvalue="C/C++ File.cw.cpp (1)" />
         <item itemvalue="C/C++ File.task28.cpp" />
         <item itemvalue="C/C++ File.task15.cpp" />
-        <item itemvalue="C/C++ File.hw.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +232,9 @@
       <workItem from="1740110164463" duration="696000" />
       <workItem from="1740113954339" duration="727000" />
       <workItem from="1740115200179" duration="5244000" />
-      <workItem from="1740718804497" duration="2507000" />
+      <workItem from="1740718804497" duration="2562000" />
+      <workItem from="1740721668825" duration="291000" />
+      <workItem from="1740936080796" duration="1184000" />
     </task>
     <task id="LOCAL-00001" summary="added lab 2025 jan 31">
       <option name="closed" value="true" />
@@ -296,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740721293586</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="missed default case">
+      <option name="closed" value="true" />
+      <created>1740721373117</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740721373117</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +323,7 @@
     <MESSAGE value="reordered some files and added hw 14 feb 2025" />
     <MESSAGE value="Added .idea to repo" />
     <MESSAGE value="Circular arrays added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circular arrays added" />
+    <MESSAGE value="missed default case" />
+    <option name="LAST_COMMIT_MESSAGE" value="missed default case" />
   </component>
 </project>
