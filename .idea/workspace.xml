@@ -18,11 +18,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b89a7c41-64a6-419f-805e-106ec26f11ec" name="Changes" comment="March 7 homework added">
-      <change afterPath="$PROJECT_DIR$/2025/mar/14/cw.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b89a7c41-64a6-419f-805e-106ec26f11ec" name="Changes" comment="array exercise added">
+      <change afterPath="$PROJECT_DIR$/sro/sro5/task16.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sro/sro5/task16.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sro/sro5/task31.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sro/sro5/task31.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/mar/7/hw.c" beforeDir="false" afterPath="$PROJECT_DIR$/2025/mar/7/hw.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,39 +71,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.cw.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.cw.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.cw.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.cw1.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.cw2.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.glaz_cw2.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hw.c.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hw.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.hw.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.task1.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.task15.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.task21.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.task28.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.cw.c.executor": "Run",
+    "C/C++ File.cw.cpp (1).executor": "Run",
+    "C/C++ File.cw.cpp.executor": "Run",
+    "C/C++ File.cw1.cpp.executor": "Run",
+    "C/C++ File.cw2.cpp.executor": "Run",
+    "C/C++ File.glaz_cw2.cpp.executor": "Run",
+    "C/C++ File.hw.c.executor": "Run",
+    "C/C++ File.hw.cpp (1).executor": "Run",
+    "C/C++ File.hw.cpp.executor": "Run",
+    "C/C++ File.task1.cpp.executor": "Run",
+    "C/C++ File.task15.cpp.executor": "Run",
+    "C/C++ File.task16.c.executor": "Run",
+    "C/C++ File.task21.cpp.executor": "Run",
+    "C/C++ File.task28.cpp.executor": "Run",
+    "C/C++ File.task31.c.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ybkuanysh\Documents\UNICOURSE\University_Algorithmization_Course\2025\mar\7" />
@@ -112,22 +115,10 @@
       <recent name="C:\Users\ybkuanysh\Documents\UNICOURSE\University_Algorithmization_Course\2025\jan" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.cw.cpp">
+  <component name="RunManager" selected="C/C++ File.task31.c">
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cw1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="cw1.cpp" CONFIG_NAME="cw1.cpp">
-      <option name="sourceFile" value="2025\mar\cw1.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cw.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="cw.c" CONFIG_NAME="cw.c">
-      <option name="sourceFile" value="2025\mar\cw.c" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="cw.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="cw.cpp" CONFIG_NAME="cw.cpp">
@@ -144,6 +135,18 @@
     </configuration>
     <configuration name="hw.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="hw.cpp" CONFIG_NAME="hw.cpp">
       <option name="sourceFile" value="2025\feb\21\hw.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task16.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="task16.c" CONFIG_NAME="task16.c">
+      <option name="sourceFile" value="sro\sro5\task16.c" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task31.c" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="University_Algorithmization_Course" TARGET_NAME="task31.c" CONFIG_NAME="task31.c">
+      <option name="sourceFile" value="sro\sro5\task31.c" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
@@ -202,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.task31.c" />
+        <item itemvalue="C/C++ File.task16.c" />
         <item itemvalue="C/C++ File.cw.cpp" />
         <item itemvalue="C/C++ File.hw.cpp" />
         <item itemvalue="C/C++ File.hw.c" />
-        <item itemvalue="C/C++ File.cw.c" />
-        <item itemvalue="C/C++ File.cw1.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +250,8 @@
       <workItem from="1741882457785" duration="3208000" />
       <workItem from="1741927244838" duration="5000" />
       <workItem from="1741928172435" duration="2672000" />
-      <workItem from="1741933143816" duration="2276000" />
+      <workItem from="1741933143816" duration="2398000" />
+      <workItem from="1742144715505" duration="4465000" />
     </task>
     <task id="LOCAL-00001" summary="added lab 2025 jan 31">
       <option name="closed" value="true" />
@@ -337,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741885678171</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="array exercise added">
+      <option name="closed" value="true" />
+      <created>1741935534756</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741935534756</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,6 +367,7 @@
     <MESSAGE value="missed default case" />
     <MESSAGE value="SRO4 added" />
     <MESSAGE value="March 7 homework added" />
-    <option name="LAST_COMMIT_MESSAGE" value="March 7 homework added" />
+    <MESSAGE value="array exercise added" />
+    <option name="LAST_COMMIT_MESSAGE" value="array exercise added" />
   </component>
 </project>
