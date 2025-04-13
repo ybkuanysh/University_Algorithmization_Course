@@ -242,6 +242,13 @@ int CreateFileOut(char *fileName1, char *fileName2) {
 
     FILE *fp2 = fopen(fileName2, "wb");
 
+
+    if (!fp2) {
+        printf("Error opening file %s\n", fileName2);
+        free(students);
+        return STATUS_FAILURE;
+    }
+
     for (int i = 0; i < group_count; i++) {
         // Узнаем год рождения самых молодых студентов для каждой группы
         int max_year = 0;
@@ -267,6 +274,7 @@ int CreateFileOut(char *fileName1, char *fileName2) {
         fwrite(&students[student_id], sizeof(struct Rec1), 1, fp2);
     }
     free(students);
+
     fclose(fp2);
 
     printf("File %s successfully created\n", fileName2);
