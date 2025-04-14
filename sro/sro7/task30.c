@@ -52,31 +52,61 @@ int CreateFileOut(char *fileName1, char *fileName2);
 int ReadFileOut(char *fileName);
 
 int main(void) {
-    char *fileName = "file_sro7.data";
-    char *fileNameEdited = "file_sro7_edited.data";
+    int choice;
 
-    if (CreateFileIn(fileName) == STATUS_FAILURE) {
-        printf("ERROR while creating new file %s\n", fileName);
+    while (1) {
+        char *fileName = "file_sro7.data";
+        char *fileNameEdited = "file_sro7_edited.data";
+
+        printf("\nSelect a function to run:\n");
+        printf("1 - CreateFileIn()\n");
+        printf("2 - AddFileIn()\n");
+        printf("3 - ReadFileIn()\n");
+        printf("4 - CreateFileOut()\n");
+        printf("5 - ReadFileOut()\n");
+        printf("0 - Exit\n");
+        printf("Enter your choice: ");
+
+        if (scanf("%d", &choice) != 1) {
+            printf("Invalid input. Please enter a number.\n");
+            while (getchar() != '\n') {}
+            continue;
+        }
+
+        switch (choice) {
+            case 1:
+                if (CreateFileIn(fileName) == STATUS_FAILURE) {
+                    printf("ERROR while creating new file %s\n", fileName);
+                }
+                break;
+            case 2:
+                if (AddFileIn(fileName) == STATUS_FAILURE) {
+                    printf("ERROR while adding new data to the file %s\n", fileName);
+                }
+                break;
+            case 3:
+                if (ReadFileIn(fileName) == STATUS_FAILURE) {
+                    printf("ERROR while reading from file %s\n", fileName);
+                }
+                printf("\n");
+                break;
+            case 4:
+                if (CreateFileOut(fileName, fileNameEdited) == STATUS_FAILURE) {
+                    printf("ERROR while creating new edited file\n");
+                }
+                break;
+            case 5:
+                if (ReadFileOut(fileNameEdited) == STATUS_FAILURE) {
+                    printf("ERROR while reading from file %s\n", fileNameEdited);
+                }
+                break;
+            case 0:
+                printf("Exiting the programm.\n");
+                return 0;
+            default:
+                printf("Invalid selection. Please try again.\n");
+        }
     }
-
-    if (AddFileIn(fileName) == STATUS_FAILURE) {
-        printf("ERROR while adding new data to the file %s\n", fileName);
-    }
-
-    if (ReadFileIn(fileName) == STATUS_FAILURE) {
-        printf("ERROR while reading from file %s\n", fileName);
-    }
-    printf("\n");
-
-    if (CreateFileOut(fileName, fileNameEdited) == STATUS_FAILURE) {
-        printf("ERROR while creating new edited file\n");
-    }
-
-    if (ReadFileOut(fileNameEdited) == STATUS_FAILURE) {
-        printf("ERROR while reading from file %s\n", fileNameEdited);
-    }
-
-    return 0;
 }
 
 int CreateFileIn(char *fileName) {
