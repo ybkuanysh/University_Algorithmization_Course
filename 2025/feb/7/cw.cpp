@@ -179,6 +179,7 @@ int main() {
         cout << i << " ";
     }
     cout << endl << "Итераций сортировки: " << count_iterations << endl;
+
 #endif
     return 0;
 }

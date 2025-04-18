@@ -117,7 +117,7 @@ int CreateFileIn(char *fileName) {
         {++records_counter, "Nurgaliev", 2004, "BT-21", 4.0f},
         {++records_counter, "Tursynov", 2004, "BT-21", 3.6f},
         {++records_counter, "Petrov", 2005, "BT-21", 4.1f},
-        {++records_counter, "Smagulov", 2005, "BT-21", 3.9f},
+        {++records_counter, "Smagulov", 2005, "BT-21", 4.1f},
         {++records_counter, "Kuznetsov", 2004, "IS-20", 4.3f},
         {++records_counter, "Zhumabayev", 2005, "IS-20", 4.4f},
         {++records_counter, "Vasiliev", 2004, "IS-20", 3.7f},
